@@ -1,3 +1,16 @@
 body, html {
 	background-color: #EDEDED !important;
 }
+/* HEADER */
+
+/* HEADER */
+
+/* FOOTER */
+.container span{
+    margin-left: 2%;
+}
+
+.footer-bg{
+    background-color: rgba(62, 63, 64, 0.86);
+    text-align: center;
+}
