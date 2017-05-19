@@ -1,5 +1,5 @@
 body, html {
-	background-color: #EDEDED !important;
+    background-color: #EDEDED !important;
 }
 body {
     display: flex;
@@ -12,79 +12,134 @@ main {
 /*HEADER*/
 
 header{
-	height:630px;
-	width: 100%;
-	background-image: url("../img/bg.jpg");
-	background-size: cover;
-	background-position:center bottom;
-	display: flex;
-	align-items: center;
-  justify-content: center;
-	flex-direction: column;
+    height:630px;
+    width: 100%;
+    background-image: url("../img/bg.jpg");
+    background-size: cover;
+    background-position:center bottom;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 header .row{
-	margin: 0;
-	padding: 0;
+    margin: 0;
+    padding: 0;
 }
 .btn-white{
-	background-color: white;
+    background-color: white;
 }
 /*SECCION ABOUT ME*/
 
 #seccion-about-me{
-	margin-top: 80px;
-	padding-bottom: 70px;
-  height: auto;
+    margin-top: 80px;
+    padding-bottom: 70px;
+    height: auto;
 
 }
 #seccion-about-me hr{
-	width: 50px;
+    width: 50px;
 }
 #seccion-about-me #titulo{
 
-	height: 100px;
+    height: 100px;
 }
 
 #seccion-about-me .informacion-1{
-	padding-top: 50px;
-	height: 350px;
+    padding-top: 50px;
+    height: 350px;
 }
 .informacion-1 .sub-1{
-	padding-bottom: 30px;
+    padding-bottom: 30px;
 }
 .informacion-2 .sub-2{
-	padding-bottom: 50px;
+    padding-bottom: 50px;
 }
 .informacion-3 .sub-3{
-	padding-bottom: 50px;
+    padding-bottom: 50px;
 }
 #seccion-about-me .informacion-2{
-	height: 430px;
-	padding-top: 50px;
+    height: 430px;
+    padding-top: 50px;
 }
 #seccion-about-me .informacion-3{
-	padding-top: 50px;
+    padding-top: 50px;
 }
 
 #seccion-about-me .informacion-2 .img-monica{
-	width: 90px;
-	height: 100px;
-	background: white;
-	padding: 10px;
-	border-radius: 50px;
-	margin-bottom: 20px;
-	display: flex;
-  justify-content: center;
+    width: 90px;
+    height: 100px;
+    background: white;
+    padding: 10px;
+    border-radius: 50px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
 }
 #seccion-about-me .informacion-2 .img-monica img{
-	width: 50px;
+    width: 50px;
 }
 .informacion-2 .card-content{
-	display: flex;
-  flex-direction: column;
-  align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .informacion-2 .card-action{
-	display: flex;
-  justify-content: center;
+    display: flex;
+    justify-content: center;
+}
+.uppercase{
+    text-transform:uppercase;
+    text-align: center;
+}
+
+hr{
+    width: 20px;
+    margin-bottom: 30px;
+}
+
+.cont-portfolio{
+    display: flex;
+    align-items: center;
+    height: auto;
+}
+
+section.cont-portfolio div.row{
+    margin-bottom: 0;
+    margin-left: 0.25rem;
+    margin-right: 0.25rem;
+}
+
+div.modal div.modal-content{
+    line-height: 0;
+    padding: 0;
+}
+
+.modal-overlay{
+    opacity: 1 !important;
+}
+
+.modal{
+    overflow-y: hidden;
+}
+
+div.col.s4{
+    margin:0;
+    padding: 0;
+    line-height: 0;
+}
+
+div.col.s4:hover{
+    opacity: 0.5;
+}
+
+div.col.s4 a{
+    width: auto;
+    height: auto;
+}
+
+@media (max-width:360px) {
+    div.modal.open{
+        transform: translateY(50%) !important;
+    }
 }
