@@ -2,7 +2,6 @@ body, html {
 	background-color: #EDEDED !important;
 }
 
-
 .uppercase{
 	text-transform:uppercase;
 	text-align: center;
@@ -16,6 +15,7 @@ hr{
 .container{
 	display: flex;
 	align-items: center;
+	height: 35em;
 }
 
 section.container div.row{
@@ -37,16 +37,23 @@ div.modal div.modal-content{
 	overflow-y: hidden;
 }
 
-.row {
-	padding: 100px 0;
-}
-
 div.col.s4{
 	margin:0;
 	padding: 0;
 	line-height: 0;
 }
 
-#height-div{
-	height: 50px;
+div.col.s4:hover{
+	opacity: 0.5;
+}
+
+div.col.s4 a{
+	width: auto;
+	height: auto;
+}
+
+@media (max-width:360px) {
+	div.modal.open{
+		transform: translateY(50%) !important;
+	}
 }
