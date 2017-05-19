@@ -10,78 +10,94 @@
         <link rel="stylesheet" href="assets/css/style.css" media="screen" title="no title">
     </head>
     <body>
-        <!---HEADER-->
-        <header>
+    <!---HEADER--->
+    <header>
+        <div class="row">
+          <div class="col s12">
+            <h2 class="center-align white-text">NOMBRE APELLIDO</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col s12 center-align">
+            <a href="#" class="btn btn-white black-text">WEB AND MOBILE DEVELOPER</a>
+          </div>
+      </div>
+    </header>
+    <!---HEADER--->
+    <!--SECCION ABOUT ME-->
+    <section  id="seccion-about-me" class="container">
 
-        </header>
-        <main>
+      <div class="row">
+        <div class="col s12 " id="titulo">
+          <div class=""><h4 class="center-align">ABOUT ME</h4></div>
+          <div class=""><h6 class="center-align">LET ME INTRODUCE MY SELF</h6></div>
+          <hr>
+        </div>
+      </div>
 
-            <!--HEADER--->
-            <!--CASCADA
+      <div class="row">
 
+        <div class="col s12 m4  card-content informacion-1" >
+          <div class="sub-1"><h6 class="center-align">STORY</h6></div>
+            <p>Monica Lynn Brodovsky is a graphic designer, illustrator, typographer, photographer, photo retoucher, screen printer, chocolate enthusiast, and mother to the most beautiful daughter in the world (slightly biased).</p>
+            <p>When she’s not busy sharing cheerios from the floor with her toddler, she enjoys obsessing over fine details and trying to find the perfect balance between work life and mom life.</p>
+        </div>
 
---> 
-            <!--PORTFOLIO
-
-
--->
-            <!--FORMULARIO-->
-            <div class="container container-form">
-                <div class="row s12 l6 center-align">
-                    <h3>CONTACT</h3>
-                    <h5>GET IN TOUCH WITH ME</h5>
-                </div>
-                <hr>
-                <div class="row s12 l6">
-                    <form class="col s12 l6">
-                        <div class="row">
-                            <div class="input-field col s6">
-                                <input type="text" name="name" id="name" required>
-                                <label for="name">First Name</label>
-                            </div>    
-                            <div class="input-field col s6">
-                                <input type="text" name="lastname" id="lastname" required>
-                                <label for="lastname">Last Name</label>
-                            </div>
-                        </div>
-                        <div class="row">  
-                            <div class="input-field col s12">
-                                <input type="email" name="email" id="email" required>
-                                <label for="email">E-Mail</label>
-                            </div>
-                        </div>
-                        <div class="row">  
-                            <div class="input-field col s12">
-                                <textarea id="textarea" class="materialize-textarea" placeholder="Your Message" required></textarea>
-                                <label for="textarea"></label>
-                            </div>
-                        </div>
-                        <button class="waves-effect waves-light btn">SUBMIT</button>
-                    </form>
-                    <div class="col s9 l5 offset-s1 offset-l1">
-                        <h6>ADDRESS</h6>
-                        <p>Nr. 6, 21 Awesome Street, London, UK</p>
-                        <h6>PHONE NUMBER</h6>
-                        <p>+91 9912776151</p>
-                        <h6>WEBSITE</h6>
-                        <p>qnimate.com</p>
-                    </div>
-                </div>
+        <div class="col s12 m4 informacion-2">
+          <div class="sub-2"><h6 class="center-align">PROFILE</h6></div>
+            <div class="card blue-grey darken-1">
+              <div class="card-content white-text">
+                <div class="img-monica"><img src="assets/img/monica.png" alt=""></div>
+                <p class="center-align">Monica earned her degree in Graphic and Interactive Design from Temple University the Tyler School of Art in 2011.</p>
+              </div>
+              <div class="card-action">
+                <a href="#">LINK</a>
+                <a href="#">LINK</a>
+              </div>
             </div>
-        </main>
-        <!--FORMULARIO-->
-        <!--FOOTER-->
-        <footer class="page-footer footer-bg white-text">
-            <div class="footer-copyright">
-                <div class="container text-footer bold">
-                    © 2014 Copyright Text
-                    <a class="white-text text-lighten- right">minombre@hotmail.com</a>
-                </div>
-            </div>
-        </footer>
-        <!--FOOTER-->
-        <script src="assets/js/jquery-3.1.1.min.js"></script>
+        </div>
+
+
+        <div class="col s12 m4 informacion-3">
+            <div class="sub-3"><h6 class="center-align">CURRENT JOBS</h6></div>
+            <ul class="collapsible" data-collapsible="accordion">
+              <li>
+                <div class="collapsible-header">Designer</div>
+                <div class="collapsible-body"><p>Aquí va más texto sobre la carrera que dice en el texto.</p></div>
+              </li>
+              <li>
+                <div class="collapsible-header">Developer</div>
+                <div class="collapsible-body"><p>Aquí va más texto sobre la carrera que dice en el texto</p></div>
+              </li>
+              <li>
+                <div class="collapsible-header">Video Editor</div>
+                <div class="collapsible-body"><p>Aquí va más texto sobre la carrera que dice en el texto</p></div>
+              </li>
+              <li>
+                <div class="collapsible-header">Support Asst</div>
+                <div class="collapsible-body"><p>Aquí va más texto sobre la carrera que dice en el texto</p></div>
+              </li>
+           </ul>
+      </div>
+    </div>
+  </section>
+    <!--SECCION ABOUT ME-->
+    <!--PORTFOLIO
+
+
+    -->
+    <!--FORMULARIO
+
+
+    -->
+
+    <!--FOOTER
+
+    -->
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script src="assets/js/materialize.min.js"></script>
+        <script src="assets/js/materialize.js"></script>
         <script src="assets/js/main.js"></script>
     </body>
 </html>

@@ -9,23 +9,82 @@ body {
 main {
     flex: 1 0 auto;
 }
-/* FORMULARIO */
-.container-form{
-    padding-top: 100px;
+/*HEADER*/
+
+header{
+	height:630px;
+	width: 100%;
+	background-image: url("../img/bg.jpg");
+	background-size: cover;
+	background-position:center bottom;
+	display: flex;
+	align-items: center;
+  justify-content: center;
+	flex-direction: column;
 }
-hr{
-    width: 50px;
-    margin-bottom: 50px;
+header .row{
+	margin: 0;
+	padding: 0;
 }
-form{
-    margin-bottom: 10%;
+.btn-white{
+	background-color: white;
 }
-/* FOOTER */
-.footer-bg{
-    background-color: #607d8b;
-    padding: 0;
+/*SECCION ABOUT ME*/
+
+#seccion-about-me{
+	margin-top: 80px;
+	padding-bottom: 70px;
+  height: auto;
+
 }
-.bold{
-    font-weight: 500;
-    font-size: 15px;
+#seccion-about-me hr{
+	width: 50px;
+}
+#seccion-about-me #titulo{
+
+	height: 100px;
+}
+
+#seccion-about-me .informacion-1{
+	padding-top: 50px;
+	height: 350px;
+}
+.informacion-1 .sub-1{
+	padding-bottom: 30px;
+}
+.informacion-2 .sub-2{
+	padding-bottom: 50px;
+}
+.informacion-3 .sub-3{
+	padding-bottom: 50px;
+}
+#seccion-about-me .informacion-2{
+	height: 430px;
+	padding-top: 50px;
+}
+#seccion-about-me .informacion-3{
+	padding-top: 50px;
+}
+
+#seccion-about-me .informacion-2 .img-monica{
+	width: 90px;
+	height: 100px;
+	background: white;
+	padding: 10px;
+	border-radius: 50px;
+	margin-bottom: 20px;
+	display: flex;
+  justify-content: center;
+}
+#seccion-about-me .informacion-2 .img-monica img{
+	width: 50px;
+}
+.informacion-2 .card-content{
+	display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.informacion-2 .card-action{
+	display: flex;
+  justify-content: center;
 }
