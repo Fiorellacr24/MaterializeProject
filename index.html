@@ -25,6 +25,7 @@
         </header>
         <!---HEADER--->
         <!--SECCION ABOUT ME-->
+        <main>
         <section  id="seccion-about-me" class="container">
 
             <div class="row">
@@ -151,20 +152,64 @@
                 </div>
             </div>
         </section>
-
-
-        <!--FORMULARIO
-
-
--->
-
-        <!--FOOTER
-
--->
-
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-        <script src="assets/js/materialize.min.js"></script>
-        <script src="assets/js/materialize.js"></script>
-        <script src="assets/js/main.js"></script>
+        <!--FORMULARIO-->
+        <div class="container container-form">
+            <div class="row s12 l6 center-align">
+                <h3>CONTACT</h3>
+                <h5>GET IN TOUCH WITH ME</h5>
+            </div>
+            <hr>
+            <div class="row s12 l6">
+                <form class="col s12 l6">
+                    <div class="row">
+                        <div class="input-field col s6">
+                            <input type="text" name="name" id="name" required>
+                            <label for="name">First Name</label>
+                        </div>    
+                        <div class="input-field col s6">
+                            <input type="text" name="lastname" id="lastname" required>
+                            <label for="lastname">Last Name</label>
+                        </div>
+                    </div>
+                    <div class="row">  
+                        <div class="input-field col s12">
+                            <input type="email" name="email" id="email" required>
+                            <label for="email">E-Mail</label>
+                        </div>
+                    </div>
+                    <div class="row">  
+                        <div class="input-field col s12">
+                            <textarea id="textarea" class="materialize-textarea" placeholder="Your Message" required></textarea>
+                            <label for="textarea"></label>
+                        </div>
+                    </div>
+                    <button class="waves-effect waves-light btn">SUBMIT</button>
+                </form>
+                <div class="col s9 l5 offset-s1 offset-l1">
+                    <h6>ADDRESS</h6>
+                    <p>Nr. 6, 21 Awesome Street, London, UK</p>
+                    <h6>PHONE NUMBER</h6>
+                    <p>+91 9912776151</p>
+                    <h6>WEBSITE</h6>
+                    <p>qnimate.com</p>
+                </div>
+            </div>
+        </div>
+        </main>
+    <!--FORMULARIO-->
+    <!--FOOTER-->
+    <footer class="page-footer footer-bg white-text">
+        <div class="footer-copyright">
+            <div class="container text-footer bold">
+                © 2014 Copyright Text
+                <a class="white-text text-lighten- right">minombre@hotmail.com</a>
+            </div>
+        </div>
+    </footer>
+    <!--FOOTER-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="assets/js/materialize.min.js"></script>
+    <script src="assets/js/materialize.js"></script>
+    <script src="assets/js/main.js"></script>
     </body>
 </html>
