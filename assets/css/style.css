@@ -1,25 +1,26 @@
 body, html {
 	background-color: #EDEDED !important;
 }
-/* HEADER */
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
 
+main {
+    flex: 1 0 auto;
+}
 /* HEADER */
 
 /* FORMULARIO */
 hr{
     width: 50px;
 }
-
-/* FORMULARIO */
-
-/* FOOTER */
-.container span{
-    margin-left: 2%;
+form{
+    margin-bottom: 10%;
 }
+/* FOOTER */
 .footer-bg{
     background-color: #607d8b;
-    width: 100%;
-    height: 70px;
-    margin-top: 70px;
-    color: white;
+    padding: 0;
 }
