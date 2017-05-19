@@ -2,11 +2,6 @@ body, html {
 	background-color: #EDEDED !important;
 }
 
-#mar-pad{
-	margin:0;
-	padding: 0;
-	line-height: 0;
-}
 
 .uppercase{
 	text-transform:uppercase;
@@ -44,4 +39,14 @@ div.modal div.modal-content{
 
 .row {
 	padding: 100px 0;
+}
+
+div.col.s4{
+	margin:0;
+	padding: 0;
+	line-height: 0;
+}
+
+#height-div{
+	height: 50px;
 }
