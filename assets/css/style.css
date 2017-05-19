@@ -6,15 +6,16 @@ body {
     min-height: 100vh;
     flex-direction: column;
 }
-
 main {
     flex: 1 0 auto;
 }
-/* HEADER */
-
 /* FORMULARIO */
+.container-form{
+    padding-top: 100px;
+}
 hr{
     width: 50px;
+    margin-bottom: 50px;
 }
 form{
     margin-bottom: 10%;
@@ -23,4 +24,8 @@ form{
 .footer-bg{
     background-color: #607d8b;
     padding: 0;
+}
+.bold{
+    font-weight: 500;
+    font-size: 15px;
 }
